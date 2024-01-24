@@ -3,8 +3,24 @@
   "version": "0.0.0",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.8",
+    "ui": "^0.0.0"
+  },
   "devDependencies": {
+    "@testing-library/react": "^14.1.2",
     "@types/node": "^20.11.6",
-    "typescript": "^5.3.3"
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/ui": "^1.2.1",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vitest": "^1.2.1"
   }
 }
