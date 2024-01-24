@@ -1,5 +1,9 @@
 {
   "name": "ui",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "typescript": "^5.3.3"
+  }
 }
